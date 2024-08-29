@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC053F932C80953E00E07150 /* WeatherCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC053F922C80953E00E07150 /* WeatherCardViewModel.swift */; };
 		DC3831D22C7F70B800B05949 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3831D12C7F70B800B05949 /* SecondViewController.swift */; };
 		DCD601682C7E1C1600C8DAFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD601672C7E1C1600C8DAFF /* AppDelegate.swift */; };
 		DCD6016A2C7E1C1600C8DAFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD601692C7E1C1600C8DAFF /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC053F922C80953E00E07150 /* WeatherCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardViewModel.swift; sourceTree = "<group>"; };
 		DC3831D12C7F70B800B05949 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DCD601642C7E1C1600C8DAFF /* ProjetoFodaseDaSilva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoFodaseDaSilva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD601672C7E1C1600C8DAFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC053F8E2C80948000E07150 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				DCD601802C7E201300C8DAFF /* HeaderComponent.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		DC053F8F2C80948C00E07150 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				DC053F922C80953E00E07150 /* WeatherCardViewModel.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
 		DCD6015B2C7E1C1600C8DAFF = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +113,8 @@
 		DCD6017F2C7E1FE500C8DAFF /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				DCD601802C7E201300C8DAFF /* HeaderComponent.swift */,
+				DC053F8F2C80948C00E07150 /* Card */,
+				DC053F8E2C80948000E07150 /* Header */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -181,6 +200,7 @@
 				DCD6017D2C7E1E0300C8DAFF /* TabBarViewController.swift in Sources */,
 				DCD601812C7E201300C8DAFF /* HeaderComponent.swift in Sources */,
 				DCD6016C2C7E1C1600C8DAFF /* ViewController.swift in Sources */,
+				DC053F932C80953E00E07150 /* WeatherCardViewModel.swift in Sources */,
 				DCD601682C7E1C1600C8DAFF /* AppDelegate.swift in Sources */,
 				DC3831D22C7F70B800B05949 /* SecondViewController.swift in Sources */,
 				DCD6016A2C7E1C1600C8DAFF /* SceneDelegate.swift in Sources */,

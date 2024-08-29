@@ -1,10 +1,3 @@
-//
-//  TabBarViewController.swift
-//  ProjetoFodaseDaSilva
-//
-//  Created by COTEMIG on 27/08/24.
-//
-
 import UIKit
 
 class TabBarViewController: UITabBarController {
@@ -31,8 +24,8 @@ class TabBarViewController: UITabBarController {
         items[0].title = "Home"
         items[0].image = UIImage(systemName: "house.fill")
         
-        items[1].title = "Settings"
-        items[1].image = UIImage(systemName: "gear")
+        items[1].title = "Weather"
+        items[1].image = UIImage(systemName: "cloud.fill")
         
         let tabBarAppearance = UITabBarAppearance()
         tabBarAppearance.backgroundColor = UIColor(named: "ComponentsBackgroundColor")

@@ -1,39 +1,38 @@
-//
-//  ViewController.swift
-//  ProjetoFodaseDaSilva
-//
-//  Created by COTEMIG on 27/08/24.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
     
-    var statusBarStyle: UIStatusBarStyle = .lightContent
+    var statusBarStyle: UIStatusBarStyle = .default
 
+    private lazy var headerComponent: HeaderComponent = {
+        let view = HeaderComponent(frame: .zero)
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = UIColor(named: "ComponentsBackgroundColor")
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor(named: "BackgroundColor")
+        viewConfiguration()
+        subViewsConstraintsConfiguration()
         
-        self.navigationController?.isNavigationBarHidden = true
-        
-        
-        setupHeader()
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return statusBarStyle
     }
     
-    func setupHeader() {
-        let headerComponent = HeaderComponent(frame: .zero)
-        headerComponent.translatesAutoresizingMaskIntoConstraints = false
-        headerComponent.backgroundColor = UIColor(named: "ComponentsBackgroundColor")
+    func viewConfiguration() {
+        view.backgroundColor = UIColor(named: "BackgroundColor")
+        view.addSubview(headerComponent)
+        
+        navigationController?.isNavigationBarHidden = true
+    }
+    
+    func subViewsConstraintsConfiguration() {
         
         let screen = UIScreen.main.bounds
-        
-        self.view.addSubview(headerComponent)
         
         NSLayoutConstraint.activate([
             headerComponent.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 0),
