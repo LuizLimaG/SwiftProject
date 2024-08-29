@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DC053F932C80953E00E07150 /* WeatherCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC053F922C80953E00E07150 /* WeatherCardViewModel.swift */; };
+		DC053F962C80AA7300E07150 /* simpleWeatherApi.json in Resources */ = {isa = PBXBuildFile; fileRef = DC053F952C80AA7300E07150 /* simpleWeatherApi.json */; };
 		DC3831D22C7F70B800B05949 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3831D12C7F70B800B05949 /* SecondViewController.swift */; };
+		DC77326E2C80AD8500552A5F /* weatherStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77326D2C80AD8400552A5F /* weatherStruct.swift */; };
 		DCD601682C7E1C1600C8DAFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD601672C7E1C1600C8DAFF /* AppDelegate.swift */; };
 		DCD6016A2C7E1C1600C8DAFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD601692C7E1C1600C8DAFF /* SceneDelegate.swift */; };
 		DCD6016C2C7E1C1600C8DAFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6016B2C7E1C1600C8DAFF /* ViewController.swift */; };
@@ -21,7 +23,9 @@
 
 /* Begin PBXFileReference section */
 		DC053F922C80953E00E07150 /* WeatherCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardViewModel.swift; sourceTree = "<group>"; };
+		DC053F952C80AA7300E07150 /* simpleWeatherApi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simpleWeatherApi.json; sourceTree = "<group>"; };
 		DC3831D12C7F70B800B05949 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DC77326D2C80AD8400552A5F /* weatherStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherStruct.swift; sourceTree = "<group>"; };
 		DCD601642C7E1C1600C8DAFF /* ProjetoFodaseDaSilva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoFodaseDaSilva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD601672C7E1C1600C8DAFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCD601692C7E1C1600C8DAFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,47 @@
 				DC053F922C80953E00E07150 /* WeatherCardViewModel.swift */,
 			);
 			path = Card;
+			sourceTree = "<group>";
+		};
+		DC053F942C80AA3800E07150 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DC77326C2C80AD6200552A5F /* ApiStruct */,
+				DC053F952C80AA7300E07150 /* simpleWeatherApi.json */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DC7732692C80AB4600552A5F /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				DCD601832C7E2F1500C8DAFF /* CustomStatusBarViewController.swift */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
+		DC77326A2C80AB5300552A5F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6016B2C7E1C1600C8DAFF /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DC77326B2C80AB6000552A5F /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				DC3831D12C7F70B800B05949 /* SecondViewController.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		DC77326C2C80AD6200552A5F /* ApiStruct */ = {
+			isa = PBXGroup;
+			children = (
+				DC77326D2C80AD8400552A5F /* weatherStruct.swift */,
+			);
+			path = ApiStruct;
 			sourceTree = "<group>";
 		};
 		DCD6015B2C7E1C1600C8DAFF = {
@@ -104,8 +149,8 @@
 		DCD6017E2C7E1E6000C8DAFF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DCD6016B2C7E1C1600C8DAFF /* ViewController.swift */,
-				DC3831D12C7F70B800B05949 /* SecondViewController.swift */,
+				DC77326B2C80AB6000552A5F /* Weather */,
+				DC77326A2C80AB5300552A5F /* Home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,7 +167,8 @@
 		DCD601822C7E2EEA00C8DAFF /* AppConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				DCD601832C7E2F1500C8DAFF /* CustomStatusBarViewController.swift */,
+				DC7732692C80AB4600552A5F /* StatusBar */,
+				DC053F942C80AA3800E07150 /* API */,
 			);
 			path = AppConfiguration;
 			sourceTree = "<group>";
@@ -186,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD601742C7E1C1700C8DAFF /* LaunchScreen.storyboard in Resources */,
+				DC053F962C80AA7300E07150 /* simpleWeatherApi.json in Resources */,
 				DCD601712C7E1C1700C8DAFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +251,7 @@
 				DCD601682C7E1C1600C8DAFF /* AppDelegate.swift in Sources */,
 				DC3831D22C7F70B800B05949 /* SecondViewController.swift in Sources */,
 				DCD6016A2C7E1C1600C8DAFF /* SceneDelegate.swift in Sources */,
+				DC77326E2C80AD8500552A5F /* weatherStruct.swift in Sources */,
 				DCD601842C7E2F1500C8DAFF /* CustomStatusBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

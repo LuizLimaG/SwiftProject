@@ -1,0 +1,110 @@
+{
+    "Rio Branco": {
+        "temperatura": "24°C",
+        "condicao": "Chuvoso"
+    },
+    "Maceio": {
+        "temperatura": "28°C",
+        "condicao": "Ensolarado"
+    },
+    "Macapa": {
+        "temperatura": "26°C",
+        "condicao": "Nublado"
+    },
+    "Manaus": {
+        "temperatura": "27°C",
+        "condicao": "Chuvoso"
+    },
+    "Salvador": {
+        "temperatura": "30°C",
+        "condicao": "Ensolarado"
+    },
+    "Fortaleza": {
+        "temperatura": "31°C",
+        "condicao": "Ensolarado"
+    },
+    "Brasilia": {
+        "temperatura": "25°C",
+        "condicao": "Nublado"
+    },
+    "Vitoria": {
+        "temperatura": "26°C",
+        "condicao": "Chuvoso"
+    },
+    "Goiania": {
+        "temperatura": "29°C",
+        "condicao": "Ensolarado"
+    },
+    "Sao Luis": {
+        "temperatura": "28°C",
+        "condicao": "Nublado"
+    },
+    "Cuiaba": {
+        "temperatura": "32°C",
+        "condicao": "Ensolarado"
+    },
+    "Campo Grande": {
+        "temperatura": "30°C",
+        "condicao": "Ensolarado"
+    },
+    "Belo Horizonte": {
+        "temperatura": "26°C",
+        "condicao": "Nublado"
+    },
+    "Belem": {
+        "temperatura": "27°C",
+        "condicao": "Chuvoso"
+    },
+    "Joao Pessoa": {
+        "temperatura": "29°C",
+        "condicao": "Nublado"
+    },
+    "Curitiba": {
+        "temperatura": "21°C",
+        "condicao": "Chuvoso"
+    },
+    "Recife": {
+        "temperatura": "27°C",
+        "condicao": "Nublado"
+    },
+    "Teresina": {
+        "temperatura": "32°C",
+        "condicao": "Ensolarado"
+    },
+    "Rio de Janeiro": {
+        "temperatura": "29°C",
+        "condicao": "Ensolarado"
+    },
+    "Natal": {
+        "temperatura": "28°C",
+        "condicao": "Nublado"
+    },
+    "Porto Alegre": {
+        "temperatura": "22°C",
+        "condicao": "Chuvoso"
+    },
+    "Porto Velho": {
+        "temperatura": "30°C",
+        "condicao": "Chuvoso"
+    },
+    "Boa Vista": {
+        "temperatura": "28°C",
+        "condicao": "Nublado"
+    },
+    "Florianopolis": {
+        "temperatura": "23°C",
+        "condicao": "Nublado"
+    },
+    "Sao Paulo": {
+        "temperatura": "25°C",
+        "condicao": "Chuvoso"
+    },
+    "Aracaju": {
+        "temperatura": "28°C",
+        "condicao": "Ensolarado"
+    },
+    "Palmas": {
+        "temperatura": "29°C",
+        "condicao": "Nublado"
+    }
+}
